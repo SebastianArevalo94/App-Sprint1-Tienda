@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.tiendita {
+    color: red;
+}
+.btnCar {
+    background-color: #0ac763;
+    color: white;
+}
+.btnCar:hover{
+    background-color: #08b157;
+}
+.banner {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* //cartas */
+.cartas {
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin: 20px auto;
+    border: none;
+}
+.descuento{
+    background-color: #f0e3fe;
+    color: #5e18bb;
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+    font-size: 10px;
+}
+.padreImg {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+
+.padreImg img {
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.padreImg img:hover {
+    transform: scale(1.03);
+}
+.peso{
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    border: none;
+
+}
+
+
+.btnLook {
+    background-color: #0ac763;
+    color: white;
+}
+.btnLook:hover{
+    background-color: #08b157;
+}
+
+/* modal */
+.btnAdd{
+    background-color: #0ac763;
+    color: white;
+    float: right;
+}
+.btnAdd:hover{
+    background-color: #08b157;
+}
+.btnPesoAdd{
+    margin: 20px auto;
+}
+.btnPesoAdd input{
+    padding: 5px;
+}
+
+#shop {
+    display: flex;
+}
+
+.shop-1 {
+    display: flex;
+}
+
+.shop-1-content {
+    margin: 0 25px;
+}
+
+.shop-2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.shop-2-input {
+    width: fit-content;
+    border: none;
+    outline: none;
+}
+
+.shop-button {
+    height: fit-content;
+}
+
+.shopCartButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.emptyShopCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40%;
+    gap: 15px;
+}

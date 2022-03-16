@@ -1,0 +1,145 @@
+/* form */
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin: auto;
+}
+
+.btnSave {
+    background-color: #0ac763;
+    margin: 20px auto;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
+}
+
+.btnSave:hover {
+    background-color: rgb(13, 192, 97);
+}
+
+/* carro  */
+.tablaCarrito {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: #DEE1EC;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1CC5DC;
+    text-transform: uppercasegit;
+}
+
+tfoot {
+    background-color: #161E54;
+    color: white;
+}
+
+tr:nth-child(even) {
+    padding: 5px;
+    background-color: #74eead;
+}
+
+td {
+    padding: 10px;
+}
+
+td img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.tdImg {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pagar {
+    padding: 10px 40px;
+    margin: 10px auto;
+}
+
+.divCarrito {
+    display: flex;
+    width: 75px;
+    height: 100px;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .divCarrito {
+        display: flex;
+        width: 120px;
+        height: 150px;
+    }
+
+    .categoria img {
+        width: 150px;
+        height: 200px;
+
+    }
+
+    .mosaico2 img {
+        display: flex;
+        width: 200px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .mosaico img {
+        display: flex;
+        width: 150px;
+        height: 200px;
+        margin: auto;
+    }
+}
+
+/* footer */
+hr {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.footerImg img {
+    display: flex;
+    margin: 20px auto;
+}
+
+.contact {
+    background-color: black;
+    margin: 10px 10px;
+    height: 200px;
+}
+
+.redes {
+    padding: 100px auto;
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact div i {
+    padding: 20px;
+    border-radius: 500px;
+    border: 2px solid white;
+    color: aliceblue;
+}
+
+.contact div i:hover {
+    color: orange;
+}
