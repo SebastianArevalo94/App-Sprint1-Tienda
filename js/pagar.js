@@ -45,7 +45,7 @@ const confirmarP = () => {
     });
     localStorage.removeItem('carrito');
     const redirect = () => {
-        window.location.href = `../html/index.html`
+        window.location.href = `../index.html`
     }
      setTimeout(redirect, 2000)
   }
@@ -61,7 +61,7 @@ addEventListener('DOMContentLoaded', () => {
         html.innerHTML+=`
         <div id="shop" class="card-body">
             <div class="shop-1">
-                <img src="${img}" alt="" width="120">
+                <img src="${img}" alt="" width="200">
                 <div class="shop-1-content">
                     <h3>${name}</h3>
                     <p>${price}</p>

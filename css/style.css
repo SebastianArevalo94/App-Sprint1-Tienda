@@ -101,6 +101,8 @@ body {
 
 #shop {
     display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
 
 .shop-1 {
@@ -108,13 +110,14 @@ body {
 }
 
 .shop-1-content {
-    margin: 0 25px;
+    margin: 0 auto;
 }
 
 .shop-2 {
     display: flex;
     gap: 25px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .shop-2-input {

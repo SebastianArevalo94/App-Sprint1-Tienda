@@ -171,13 +171,14 @@ shopCartButton.addEventListener("click", () => {
       shopCartHTML.innerHTML += `
       <div id="shop" class="card-body">
       <div class="shop-1">
-          <img src="${img}" alt="" width="70">
+          <img src="${img}" alt="" width="120">
           <div class="shop-1-content">
               <h3>${name}</h3>
               <p>$${price}</p>
           </div>
       </div>
       <div class="shop-2">
+          <p>Cantidad:</p>
           <p class="shop-2-input" id="cantidad${counter}" type="number">1</p>
           <button class="btn btn-dark shop-button" onclick="add(${counter})">+</button>
           <button class="btn btn-danger shop-button" onclick="delete_(${counter})">-</button>
