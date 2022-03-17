@@ -191,7 +191,7 @@ shopCartButton.addEventListener("click", () => {
     let shopButton = document.querySelector("#shop-button");
     shopButton.innerHTML = `[${shopCart.length}] Ir a pagar $${total}`;
     shopButton.addEventListener("click", () => {
-      window.location.href = `/App-Sprint1-Tienda/html/pagar.html`;
+      window.location.href = `../html/pagar.html`;
     });
   }
 });
