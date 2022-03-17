@@ -4,6 +4,12 @@
     text-transform: uppercase;
 }
 
+.nav-crud {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+}
+
 .form-group {
     margin: auto;
 }
@@ -32,6 +38,52 @@
     background-color: #DEE1EC;
     border-collapse: collapse;
 }
+
+#shop {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.shop-1 {
+    display: flex;
+}
+
+.shop-1-content {
+    margin: 0 auto;
+}
+
+.shop-2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.shop-2-input {
+    width: fit-content;
+    border: none;
+    outline: none;
+}
+
+.shop-button {
+    height: fit-content;
+}
+
+.shopCartButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.emptyShopCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40%;
+    gap: 15px;
+}
+
 
 th {
     background-color: #1CC5DC;
